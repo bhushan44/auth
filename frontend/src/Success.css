@@ -1,0 +1,41 @@
+.main{
+    background-color: azure;
+    
+    border-radius: 20px;
+}
+.h1{
+    /* color: aqua; */
+    font-size: 30px;
+    background-image: linear-gradient(120deg,purple,orange);
+    width:100%;
+    padding:20px 40px;
+
+}
+.h2{
+    font-size: 20px;
+}
+.main1{
+    padding: 50px;
+}
+@media (max-width:600px){
+    .main{
+        background-color: azure;
+        
+        border-radius: 20px;
+    }
+    .h1{
+        /* color: aqua; */
+        font-size: 12px;
+        background-image: linear-gradient(120deg,purple,orange);
+        /* width:100%; */
+        padding:10px 20px;
+    
+    }
+    .main1{
+        padding: 50px;
+    }
+    .h2{
+        font-size: 10px;
+    }
+
+}
