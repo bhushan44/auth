@@ -8,7 +8,7 @@ import Setpassword from './Setpassword';
 function App() {
   return (
     <div>
-      <h1>jhbibhushan</h1>
+    
     <Routes>
       <Route path='/Login' element={<Login/>}/>
       <Route path='/' element={<Signup/>}/>
