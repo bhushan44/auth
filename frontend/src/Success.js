@@ -5,7 +5,7 @@ import './Success.css';
 const Success = () => {
   const[data,setdata]=useState([])
   useEffect(()=>{
-    axios.get("http://localhost:8000/gets" )
+    axios.get("https://hello-23g6.onrender.com/gets" )
     .then((res)=>{
       setdata(res.data)
       console.log(res.data)

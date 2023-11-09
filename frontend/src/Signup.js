@@ -10,12 +10,12 @@ const Signup=()=>{
     const Navigate=useNavigate()
     const Submit=async()=>{
         try{
-        const res1=await axios.get("http://localhost:8000/valid/"+name);
+        const res1=await axios.get("https://hello-23g6.onrender.com/valid/"+name);
             if(res1.data){
                 alert(name+"  already exists please enter new user name")
             }
             else{
-        const res=await axios.post("http://localhost:8000/input/"+name+"/"+pass);
+        const res=await axios.post("https://hello-23g6.onrender.com/input/"+name+"/"+pass);
         if(res)
         {
             alert("saved sucessfully!");

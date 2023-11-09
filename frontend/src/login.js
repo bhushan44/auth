@@ -11,7 +11,7 @@ const Login = () => {
     const Navigate=useNavigate()
     const Submit=async()=>{
         try{
-            const res=await axios.get("http://localhost:8000/check/"+name+"/"+pass)
+            const res=await axios.get("https://hello-23g6.onrender.com/check/"+name+"/"+pass)
             if(res.data){
               Navigate('/Login/success',{state:{name:name}})
             }
